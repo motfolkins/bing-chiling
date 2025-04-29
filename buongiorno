@@ -1,0 +1,13 @@
+// Impostazioni della griglia
+const gridContainer = document.querySelector('.game-grid');
+
+// Funzione per creare la griglia
+function createGrid() {
+    for (let i = 0; i < 200; i++) {
+        const gridSquare = document.createElement('div');
+        gridContainer.appendChild(gridSquare);
+    }
+}
+
+// Creare la griglia all'avvio della pagina
+createGrid();
