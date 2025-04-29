@@ -1,0 +1,59 @@
+/* Stile di base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Griglia di gioco */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    background-color: #444;
+    border: 2px solid #fff;
+}
+
+.game-grid div {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    border: 1px solid #333;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
