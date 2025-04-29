@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris-inspired Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel Tetris!</h1>
+        <p>Gioca e sfida il tuo punteggio</p>
+    </header>
+    
+    <div class="game-container">
+        <div class="game-grid">
+            <!-- La griglia di gioco verrà generata dinamicamente -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tetris-inspired Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
